@@ -174,7 +174,7 @@ const ProductEditScreen = () => {
 
             <Button
               type='submit'
-              variant='primary'
+              variant='dark'
               style={{ marginTop: '1rem' }}
             >
               Update

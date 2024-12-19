@@ -249,6 +249,7 @@ const OrderScreen = () => {
                     <Button
                       type='button'
                       className='btn btn-block'
+                      variant='dark'
                       onClick={deliverHandler}
                     >
                       Mark As Delivered

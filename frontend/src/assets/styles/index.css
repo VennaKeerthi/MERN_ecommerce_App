@@ -21,6 +21,7 @@ main {
   overflow: hidden; /* Hide overflow content */
   text-overflow: ellipsis; /* Add ellipsis for long text */
   white-space: nowrap; /* Prevent wrapping */
+  color: black;
 }
 
 table td,
@@ -41,6 +42,7 @@ table th {
 
 .review button {
   margin-top: 10px;
+  background-color: black;
 }
 
 .carousel-caption {

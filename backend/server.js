@@ -10,6 +10,7 @@ import orderRoutes from './routes/orderRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 
+console.log('MONGO_URI:', process.env.MONGO_URI);
 const port = process.env.PORT || 5000;
 
 connectDB();

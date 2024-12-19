@@ -137,6 +137,7 @@ const PlaceOrderScreen = () => {
               <ListGroup.Item>
                 <Button
                   type='button'
+                  variant='dark'
                   className='btn-block'
                   disabled={cart.cartItems === 0}
                   onClick={placeOrderHandler}

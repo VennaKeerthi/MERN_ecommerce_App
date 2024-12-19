@@ -148,6 +148,7 @@ const ProductScreen = () => {
                     <Button
                       className='btn-block'
                       type='button'
+                      variant='dark'
                       disabled={product.countInStock === 0}
                       onClick={addToCartHandler}
                     >
